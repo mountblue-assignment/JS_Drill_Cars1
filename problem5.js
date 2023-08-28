@@ -7,7 +7,7 @@
     let carsData=[];
     for(let i=0;i<inventory.length;i++){
        if(inventory[i].car_year<year){
-         carsData.push(inventory[i].car_year);
+         carsData.push(inventory[i]);
        };
     }
 
