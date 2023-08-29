@@ -10,6 +10,7 @@ function findCarById(inventory,id){
           return inventory[i];
       }
     }
+    return null;
   }
   
   module.exports=findCarById;
